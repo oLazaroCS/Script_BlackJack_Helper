@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Helper</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Blackjack Helper</h1>
+        <form id="blackjack-form">
+            <label for="player-cards">Suas Cartas (separe por vírgula):</label>
+            <input type="text" id="player-cards" placeholder="Ex: 8,7" required>
+            
+            <label for="dealer-card">Carta do Dealer:</label>
+            <input type="number" id="dealer-card" min="1" max="11" placeholder="1 para Ás, 10 para J, Q, K" required>
+
+            <label for="is-pair">Você tem um par?</label>
+            <select id="is-pair" required>
+                <option value="no">Não</option>
+                <option value="yes">Sim</option>
+            </select>
+
+            <label for="can-double">Você pode dobrar?</label>
+            <select id="can-double" required>
+                <option value="no">Não</option>
+                <option value="yes">Sim</option>
+            </select>
+
+            <button type="submit">Calcular Ação</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>
