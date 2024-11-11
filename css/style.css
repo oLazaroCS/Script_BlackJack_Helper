@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url(/img/background.jpg);
+    background-image: url(./img/background.jpg);
     backdrop-filter: blur(7px);
     -webkit-backdrop-filter: blur(7px);
     display: flex;
