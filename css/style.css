@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url(https://github.com/oLazaroCS/Script_BlackJack_Helper/blob/main/img/background.jpg?raw=true);
+    background-image: url(https://raw.githubusercontent.com/oLazaroCS/Script_BlackJack_Helper/refs/heads/main/img/background.jpg);
     backdrop-filter: blur(7px);
     -webkit-backdrop-filter: blur(7px);
     display: flex;
